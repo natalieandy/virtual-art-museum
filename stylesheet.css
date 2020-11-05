@@ -1,0 +1,14 @@
+#V {
+  font-family: 'UnifrakturCook', cursive;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+.sprite2 {
+  background-image: url(./sprite2-remove.png);
+  height: 558px;
+  width: 600px;
+}
