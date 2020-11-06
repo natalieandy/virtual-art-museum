@@ -1,14 +1,50 @@
-#V {
-  font-family: 'UnifrakturCook', cursive;
+body {
+  background-color: #F0EFED;
 }
 h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: large;
+  font-family: 'UnifrakturCook', cursive;
   display: flex;
   justify-content: center;
 }
-.sprite2 {
-  background-image: url(./sprite2-remove.png);
-  height: 558px;
-  width: 600px;
+.intro {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 50px;
+}
+.VIRTUAL {
+  position: absolute;
+  z-index: 3;
+  top: -80px;
+  left: 493px;
+  width: 385px;
+}
+.ART {
+  position: absolute;
+  z-index: 3;
+  top: 69px;
+  left: 547px;
+  width: 150px;
+}
+.GALLERY {
+  position: absolute;
+  z-index: 3;
+  top: 39px;
+  left: 633px;
+  width: 375px;
+}
+.statue {
+  background-image: url(./statue.png);
+  height: 549px;
+  width: 484px;
+  position: relative;
+  display: block;
+  left: -210px;
+  top: 45px;
+}
+.lady {
+  position: relative;
+  display: block;
+  left: 550px;
+  top: 74px;
 }
