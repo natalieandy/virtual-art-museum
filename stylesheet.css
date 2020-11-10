@@ -18,6 +18,15 @@ h3 {
   top: -80px;
   left: 493px;
   width: 385px;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
+  will-change: transform, opacity;
+}
+.VIRTUAL.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
 }
 .ART {
   position: absolute;
@@ -25,6 +34,12 @@ h3 {
   top: 69px;
   left: 547px;
   width: 150px;
+  opacity: 0;
+  transition: opacity .5s .25s ease-out;
+  transform: translate(-50%, calc(-50% +3.5em));
+}
+.ART.is-visible {
+  opacity: 1;
 }
 .GALLERY {
   position: absolute;
@@ -32,6 +47,12 @@ h3 {
   top: 39px;
   left: 633px;
   width: 375px;
+  opacity: 0;
+  transition: opacity .5s .25s ease-out;
+  transform: translate(-50%, calc(-50% +3.5em));
+}
+.GALLERY.is-visible {
+  opacity: 1;
 }
 .statue {
   background-image: url(./statue.png);
@@ -42,9 +63,23 @@ h3 {
   left: -210px;
   top: 45px;
 }
+.little-text {
+  position: absolute;
+  display: block;
+  z-index: -10;
+}
 .lady {
   position: relative;
   display: block;
   left: 550px;
   top: 74px;
+}
+.flex-rectangle{
+  width: 100%;
+  background: #ca0164;
+}
+.flex-rectangle:before{
+  content: "";
+  display: block;
+  padding-top: 25%;
 }
