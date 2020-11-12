@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box.html</title>
+
+  <style>
+    .square {
+      height: 300px;
+      width: 300px;
+      background-color: red;
+    }
+    .hand {
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+  height: 444px;
+  width: 344px;
+  left: 50%;
+  top: 50%;
+  background-image: url("/img/flippers.png");
+}
+  </style>
+</head>
+<body>
+  <div class="square"></div>
+  <script src="./box.js"></script>
+</body>
+</html>

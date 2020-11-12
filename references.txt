@@ -1,0 +1,14 @@
+Cursor sources:
+https://www.youtube.com/watch?v=rfpRZ2t_BrQ
+https://www.youtube.com/watch?v=5Ox6NisURis
+*https://www.youtube.com/watch?v=WZQnqBj_Oi4 - the best
+    https://github.com/codegridweb/Change-Cursor-Animation-On-Image-Hover
+
+Gallery from https://kenwheeler.github.io/slick/
+Tutorial for photogrammetry here: https://www.youtube.com/watch?v=1TeMXIWRrqE
+  GitHub repository: https://github.com/SekeNikola/ThreeJS-GLTF-loader
+  Arm: https://sketchfab.com/3d-models/arm-c28b84ee6acd4024adc77eccd7f0621e
+
+Box: https://thatsthefinger.com/
+
+Draggable Body Parts: https://www.youtube.com/watch?v=cNh-jFcCGKU
