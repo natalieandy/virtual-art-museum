@@ -13,7 +13,7 @@ h3 {
   display: flex;
   justify-content: center;
   top: 99px;
-  left: 185px;
+  left: 85px;
 }
 .VIRTUAL {
   position: absolute;
@@ -73,7 +73,11 @@ h3 {
   top: 227px;
   left: 473px;
 }}
-.lady {
+.site-footer {
+  background-color: pink;
+}
+
+/*.lady {
   position: relative;
   display: block;
   left: 550px;
